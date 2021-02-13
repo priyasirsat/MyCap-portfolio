@@ -1,0 +1,163 @@
+body {
+    font-family: "Sen", sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 2rem 5rem;
+}
+
+.image {
+    margin-top: 2rem;
+    border: 5px solid #a01bec;
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+}
+
+.heading {
+    padding-top: 1rem;
+    margin: 0;
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.about {
+    max-width: 900px;
+    font-family: "Roboto Mono";
+}
+
+.icons {
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+
+.fab,
+.far {
+    color: black;
+    padding-right: 55px;
+    opacity: 0.5;
+}
+
+.fab:hover,
+.far:hover {
+    opacity: 1;
+}
+
+.button-div {
+    margin-top: 2rem;
+}
+
+.btn {
+    line-height: 1.2rem;
+    border: 3px solid #a01bec;
+    padding: 0.5rem 1rem;
+    font-family: "Sen";
+    font-size: 1rem;
+    color: black;
+    background-color: #a01bec;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.btn:hover {
+    border: 3px solid #a01bec;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.edu,
+.exp {
+    font-family: "Roboto Mono";
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.edu div,
+.exp div {
+    margin-bottom: 1rem;
+}
+
+.edu h2,
+.exp h2 {
+    font-family: "Sen";
+    color: #a01bec;
+    font-size: 3rem;
+    margin: 3rem 0 0.3rem 0;
+}
+
+.edu h3,
+.exp h3 {
+    font-size: 1.5rem;
+    padding: 1rem 0 0.8rem 0;
+    margin: 0;
+}
+
+.name {
+    margin: 0;
+    font-size: 1rem;
+}
+
+
+/* forms css */
+
+.form-text {
+    font-family: "Roboto Mono";
+    max-width: 420px;
+    line-height: 1.5rem;
+}
+
+textarea {
+    font-family: "Roboto Mono";
+}
+
+.form-body {
+    margin-top: 2rem;
+}
+
+.input-field {
+    width: 50%;
+    margin: 1rem 0;
+    display: block;
+    color: black;
+    background-color: white;
+    border: 3px solid #a01bec;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.input-field::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.5rem;
+}
+
+.input-field:focus,
+.input-field:hover {
+    color: black;
+    outline: none;
+    background-color: #a01bec;
+    font-weight: bold;
+}
+
+.input-field:focus::placeholder,
+.input-field:hover::placeholder {
+    color: black;
+}
